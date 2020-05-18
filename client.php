@@ -34,7 +34,7 @@
     <div id="results">
     <?php
     // make a connection to the postGIS database
-    $conn=pg_pconnect("host=localhost port=5432 dbname=geog655_final user=postgres password=62ccQ89SUnGY");
+    $conn=pg_pconnect("host=localhost port=5432 dbname=geog655_final user=postgres password=**********");
     if(!$conn) {
         echo "An error occurred.\n";
         exit;
